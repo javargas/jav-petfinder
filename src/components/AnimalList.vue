@@ -54,7 +54,7 @@ export default {
     loadAnimalList: function() {
 
     const config = {
-        headers: { Authorization: `Bearer 0l6ZC1E18gV2FqFJc9EUXF1l60K4BCU8I0cuO52tttZrKLdhqm` }
+        headers: { Authorization: `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIwbDZaQzFFMThnVjJGcUZKYzlFVVhGMWw2MEs0QkNVOEkwY3VPNTJ0dHRacktMZGhxbSIsImp0aSI6ImNhNWFkMDZkNjFmMGQzNzA3ODAzOTU0YzIwMWMxMzFiNzA3MWIyOTFmNjVmMjFmMWU4OWJhNzM4ODdjOTA0NjExNTc1MTVlZmRhOTc0YTY5IiwiaWF0IjoxNTk5NDQ5Mzk0LCJuYmYiOjE1OTk0NDkzOTQsImV4cCI6MTU5OTQ1Mjk5NCwic3ViIjoiIiwic2NvcGVzIjpbXX0.aP_duyyJmTUwRDSdnQ8Hea8eNwnLphaJ81Ebcu4C8bSskL4nL6bHQjhLZ5d4ptkwHzOpHCNfZU1rMt1oeOihaJN9GJbLxmwrn8BDZfDEgMTC68P84YGgZuODIVGwGqVayeIpsNIFJzD24fvVRXOodgnWXQza8FBdkygJ5EM670ULw6fOPeeWMjGvxzSWIOephNppVpQEOtg6s5hJ7zLkzDrICb6kYQCWTgNCFwOFBE1Jz8DO7W28esgPXQt2dHG1GRvl9Ee9yWqSFTIcZvEVSY-2fAQQ2jyLdgPGEhZJ7vSUvVCOYpSP6WSRpaSVY0uyGal461ZIOZJ30KFZ11UmgA` }
     };
 
     axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
