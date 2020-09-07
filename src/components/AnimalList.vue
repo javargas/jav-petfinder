@@ -53,10 +53,16 @@ export default {
   methods: {
     loadAnimalList: function() {
 
+    const config = {
+        headers: { Authorization: `Bearer 0l6ZC1E18gV2FqFJc9EUXF1l60K4BCU8I0cuO52tttZrKLdhqm` }
+    };
+
+    axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
+
       let url = 'https://api.petfinder.com/v2/animals';
       console.log("url: ", url);
 
-       axios.get(url ).then(result => { 
+       axios.get(url, config ).then(result => { 
           console.log(result.data) 
           
           this.items = result.data.items;
