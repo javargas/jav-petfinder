@@ -6,7 +6,7 @@
       dark
     >
       <div class="d-flex align-center">
-        Callenge Web Developer
+        Challenge Web Developer
       </div>
 
       <v-spacer></v-spacer>
