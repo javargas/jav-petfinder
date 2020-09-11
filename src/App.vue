@@ -6,7 +6,7 @@
       dark
     >
       <div class="d-flex align-center">
-        Challenge Web Developer
+        Challenge Pet Finder - John Vargas
       </div>
 
       <v-spacer></v-spacer>
@@ -26,7 +26,7 @@ export default {
   name: 'App',
 
   components: {
-    AnimalList,
+    AnimalList
   },
 
   data: () => ({
