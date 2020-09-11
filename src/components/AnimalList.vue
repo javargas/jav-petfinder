@@ -110,7 +110,7 @@
         <!-- Modal para confirmar un accion en un evento -->
         <v-dialog
             v-model="viewModal"
-            max-width="500px"
+            max-width="880px"
             persistent
             transition="dialog-transition"
         >
